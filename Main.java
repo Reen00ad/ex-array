@@ -28,10 +28,11 @@ public class Main {
         //ex3
 //        int [] num = {20,30,40};
 //        int large = num[0];
-//        if(num[2] >= large)
-//            large=num[2];
-//        System.out.println("larger value between first and last element : "+large);
-
+//       if(num[0]>num[num.length-1]){
+          System.out.println("larger value between first and last element : "+num[0]);}
+          else
+          System.out.println("larger value between first and last element : "+num[num.length-1]);
+      
         //ex4
 //        int [] num = {20,30,40};
 //        int swap = num[0];
