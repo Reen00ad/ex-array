@@ -34,11 +34,15 @@ public class Main {
           System.out.println("larger value between first and last element : "+num[num.length-1]);
       
         //ex4
-//        int [] num = {20,30,40};
-//        int swap = num[0];
-//        num[0] = num[num.length-1];
-//        num[num.length-1] = swap ;
-//        System.out.println("new array after swapping the first and last elements : "+ Arrays.toString(num));
+//         int soop=0;
+    int []swap ={20, 30, 40};
+    soop=swap[0];//save first element
+    swap[0]=swap[swap.length-1]; //swap first with last
+    swap[swap.length-1]=soop; //put new first here in the last
+    System.out.println("New array after swapping the first and last elements:");
+    for(int s:swap){System.out.print("\t"+s);}
+     System.out.println("");
+
 
         //ex5
 //        int [] num = {2,3,40,1,5,9,4,10,7};
